@@ -1,11 +1,30 @@
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <style>
+        #googlecalendar {
+            border: solid 1px #777;
+            width: 100%;
+            height: 100%;
+
+            @media screen and (min-width: 680px){  
+                transform: scale(1.5);
+                transform-origin: 0 0;
+            }
+            @media screen and (max-width: 680px){  
+                transform: scale(3);
+                transform-origin: 0 0;
+            }
+        }
+        </style>
+    </head>
 <body>
 <div class="cal_wrapper">
 <div class="googlecal">
 <!-- 埋め込み用 HTML コード -->
 <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo;&dates=20191201%2F20201230&mode=AGENDA&src=Y19qc2dib2RzZHZyZTFrNW1ocjkycW0wa3EzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA&showTz=0&showCalendars=0&showTabs=1&showPrint=0&showDate=0&showTitle=0" style="border:solid 1px #777" id="googlecalendar" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo;&dates=20200523%2F20200730&mode=AGENDA&src=Y19qc2dib2RzZHZyZTFrNW1ocjkycW0wa3EzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA&showTz=0&showCalendars=0&showTabs=1&showPrint=0&showDate=0&showTitle=0" style="border:solid 1px #777" id="googlecalendar" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo;&dates=20200523%2F20200730&mode=AGENDA&src=Y19qc2dib2RzZHZyZTFrNW1ocjkycW0wa3EzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA&showTz=0&showCalendars=0&showTabs=1&showPrint=0&showDate=0&showTitle=0" style="border:solid 1px #777;width: 100vw;height: 100%;" id="googlecalendar"  frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo;&dates=20200523%2F20200830&mode=AGENDA&src=Y19qc2dib2RzZHZyZTFrNW1ocjkycW0wa3EzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA&showTz=0&showCalendars=0&showTabs=1&showPrint=0&showDate=0&showTitle=0"  id="googlecalendar"  frameborder="0" scrolling="no"></iframe>
 </div><!--end of .googlecal-->
 </div><!--end of .cal_wrapper-->
 </body>
